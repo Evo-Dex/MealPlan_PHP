@@ -1,0 +1,242 @@
+/* 
+
+Filmkatalog mit Verbindung zur MySQL-Datenbank
+Admin-Bereich für Filmtitel
+
+
+*/
+
+
+/******* Body ********/
+
+body {
+
+    margin: 0px; 
+    padding: 40px; 
+    font-family: Verdana,Arial,sans-serif; 
+    color: rgb(48, 48, 48); 
+    background-image: url("stripes.png"), linear-gradient(rgb(214, 233, 247), rgb(255, 255, 255) 600px); 
+    background-repeat: repeat-x, no-repeat;	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+/******* Links ********/
+
+a {
+	
+	color: #4444CC;
+}
+
+a:hover {
+	
+	color: #8888DD;
+}
+
+/******* Überschriften ********/
+
+h1 { 
+    font-size: 20px; 
+    font-weight:bold; 
+    background-color:WhiteSmoke; 
+}
+h2 { 
+    font-size: 16px; 
+    font-weight:bold;  
+}
+h3 { 
+    font-size: 16px; 
+    font-weight:bold;  
+}
+
+
+/******* Container ********/
+
+#content { 
+    min-height: 350px; 
+    background-color: rgb(250,250,250); 
+}
+
+.border { 
+    padding: 30px 10px 10px 50px; 
+    width: 800px; border: 1px solid rgb(189, 198, 215); 
+    border-radius: 6px; 
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.1), 0px -2px rgb(229, 239, 248) inset; 
+    background-color:WhiteSmoke; 
+    margin-bottom: 15px;
+}
+
+/******* Formular ********/
+
+#formular {
+
+	font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.form_label, .form_input, .form_input_select, .form_text {
+    display: block;
+}
+
+.form_input {
+	width: 350px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.form_input_select {
+    width: 355px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.form_input_login {
+	width: 200px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.form_text {
+
+ 	width: 350px;
+	height: 100px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.form_button {
+
+	font-size: 14px;
+}
+
+.form_button_right {
+
+	margin-left: 174px;
+}
+
+.form_button_right_upload {
+
+	margin-left: 60px;
+}
+
+.form_option {
+
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12px;
+}
+
+#section_select , #section_input, #section_submit {
+    
+    margin-bottom: 30px;
+}
+
+
+/******* Tabelle ********/
+
+.liste {
+    
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px 0px;
+}
+
+.liste th, td {
+    border: 1px solid rgb(189, 198, 215);
+    text-align: left;
+    padding: 8px 15px;
+    
+}
+
+.liste th{
+    
+    background-color: #DDDDDD;
+}
+
+
+/******* Hauptnavigation ********/
+
+#adminmenu {
+
+	width: 650px;
+	background-color: #DDDDDD;
+	padding: 20px 50px;
+	border: 1px solid #666666;
+	margin-bottom: 10px;
+}
+#adminmenu a{
+	
+	font-weight: bold;
+	font-size: 12px;
+}
+#adminmenu ul {
+
+	margin: 0px;
+	padding: 0px;
+}
+#adminmenu li {
+
+	padding: 0px 12px 0px 0px;
+	display: inline;
+}
+
+
+/******* Sonstiges ********/
+
+.linkneu {
+	
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.fehler {
+	
+	color: #FF4444;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.loeschen {
+	
+	color: #FF4444;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.adminbild {
+
+  float: left;
+  margin-right: 30px;
+}
+
+.datensatz {
+
+  margin-bottom: 50px;
+}
+
+.clearer {
+  clear: both;
+  height : 0px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
